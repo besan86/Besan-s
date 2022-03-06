@@ -1,0 +1,40 @@
+.Login {
+  display: flex;
+  justify-content: center;
+}
+.Login .buttons {
+  background-color: #dfedee;
+  position: fixed;
+  top: 100px;
+  display: flex;
+  font-size: 18px;
+}
+.Login .buttons .inside a {
+  display: flex;
+  justify-content: center;
+  float: center;
+  color: white;
+  background-color: #2a9db9;
+  width: 15 px;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 15px;
+  border-radius: 20px;
+}
+.Login .backHome a {
+  float: center;
+  color: white;
+  background-color: #2a9db9;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border: 3px solid #73AD21;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+}
